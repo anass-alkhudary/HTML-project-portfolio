@@ -42,7 +42,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url('/images/profile-image.png');
+  background-image: url('./images/profile-image.png');
   background-size: cover;
   background-position: center;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 #home {
-  background-image: url('/images/home-image.jpg');
+  background-image: url('./images/home-image.jpg');
   background-blend-mode: darken;
   background-size: cover;
   background-position: center;
