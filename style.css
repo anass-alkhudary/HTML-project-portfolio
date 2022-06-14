@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #230935;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.left-bar {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 25%;
+  background-color: #230935;
+  color: white;
+  border-right: 1px solid #f96d0b;
+}
+
+.left-bar-content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.left-bar-content-header-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url('/images/profile-image.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.left-bar-content-body-links ul {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.left-bar-content-body-links ul li:hover {
+  background-color: #2a0b41;
+}
+
+.left-bar-content-body-links a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 0 10px 40px;
+}
+
+.main {
+  width: 75%;
+}
+
+.main > div {
+  height: 100vh;
+}
+
+#home {
+  background-image: url('/images/home-image.jpg');
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.home-background-image-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.home-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-content h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.home-content h1 span {
+  color: #f96d0b;
+}
+
+.home-content a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #f96d0b;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+
+#about,
+#code-academe {
+  padding: 50px;
+}
+
+.title {
+  font-weight: 400;
+  display: block;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.content {
+  color: #919191;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.about-hobbies {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.about-hobbies-title {
+  color: #f96d0b;
+  font-size: 25px;
+}
+
+.about-hobbies li {
+  margin-bottom: 10px;
+}
+
+.about-hobbies img {
+  height: 400px;
+  margin-right: 100px;
+}
+
+.code-academe-links {
+  margin-left: 40px;
+}
+
+.code-academe-links-title {
+  color: #f96d0b;
+  font-size: 25px;
+}
+
+.code-academe-links-list {
+  list-style-type: none;
+}
+
+.code-academe-links-list li {
+  margin-bottom: 20px;
+}
+
+.code-academe-links-list li a {
+  text-decoration: none;
+  color: #919191;
+  padding: 0;
+}
+
+.code-academe-links-list span {
+  color: #66187e;
+}
+.code-academe-links-list span:hover {
+  color: #7a5286;
+}
+
+.code-academe-links-list i {
+  color: #f96d0b;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.contact-container {
+  padding: 50px;
+}
+
+.contact-title {
+  color: #f96d0b;
+  font-size: 25px;
+  margin: 0;
+  margin-top: 30vh;
+}
+
+.contact-subtitle {
+  font-size: 17px;
+  margin: 0 0 20px 0;
+}
+
+.contact-subtitle-list {
+  color: #919191;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-subtitle-list li {
+  margin-bottom: 10px;
+}
+
+.contact-subtitle-list i {
+  color: #f96d0b;
+  font-size: 20px;
+  margin-right: 20px;
+}
